@@ -1,0 +1,250 @@
+/* .imgad{
+    margin-left: 100px;
+
+}
+div img{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 250px;
+} */
+/* *{ */
+    /* grid-template-columns: 75%,25%;
+     */
+     /* width: 800px; */
+     /* left: 150px; */
+     /* top: 100px; */
+/* } */
+
+.rounded-circle {
+    border-radius: 50%;
+  } 
+  nav{
+    color: #e2acac;
+    background-color: blanchedalmond;
+  }
+
+  .same{
+    height: 40px;
+    line-height: 40px;
+    font-size: larger;
+  }
+  
+  .same:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    font-size: large;
+  }
+  
+  
+  #but2{
+  position: relative;
+  margin-top: 30px;
+  }
+  
+  #part1{
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #part2{
+    margin-left: 10px;
+    border-radius: 30px;
+    text-align: center;
+    overflow-y: auto;
+    grid-template-columns: 30%,70%;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #paradiv
+  {
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  #paradiv {
+    position: relative;
+    top: 0; /* Adjust top position as needed */
+    left: 0; /* Adjust left position as needed */
+    width: 100%; /* Ensure full width */
+    z-index: 1000; /* Set a high z-index to ensure it's above other elements */
+    background-color: #ffffff; /* Background color */
+    /* Add other styling as needed */
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  #tm{
+    position: relative;
+    top: 20px;
+  }
+  
+  #img{
+    border-radius: 40px;
+    position: absolute;
+    left: 1140px;
+    top: 0px;
+    right: 10px;
+  }
+  
+  #cont1{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 40px;
+    width: 500px;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+  }
+  
+  #searching{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    border-radius: 30px;
+    border: #fff;
+    width: 70px;
+    height: 25px;
+  }
+  
+  
+  #cont2{
+    position:absolute;
+    display: inline-block;
+    height: 80vh;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 30px;
+    left: 350px;
+    top: 100px;
+  }
+
+  .navbar,.navbar-expand-lg{
+
+    background-color: black;
+  }
+
+
+  .rounded-circle {
+    border-radius: 50%;
+  } 
+  nav{
+    color: #e2acac;
+    background-color: blanchedalmond;
+  }
+
+  .same{
+    height: 40px;
+    line-height: 40px;
+    font-size: larger;
+  }
+  
+  .same:hover{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    font-size: large;
+  }
+  
+  
+  #but2{
+  position: relative;
+  margin-top: 30px;
+  }
+  
+  #part1{
+    border-radius: 30px;
+    text-align: center;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #part2{
+    margin-left: 10px;
+    border-radius: 30px;
+    text-align: center;
+    overflow-y: auto;
+    grid-template-columns: 30%,70%;
+    background: rgba(87, 87, 87, 0.5);
+  }
+  
+  #paradiv
+  {
+    height: 97vh;
+    display: grid;
+    grid-template-columns: 25% 75%;
+  }
+  #paradiv {
+    position: relative;
+    top: 0; /* Adjust top position as needed */
+    left: 0; /* Adjust left position as needed */
+    width: 100%; /* Ensure full width */
+    z-index: 1000; /* Set a high z-index to ensure it's above other elements */
+    background-color: #ffffff; /* Background color */
+    /* Add other styling as needed */
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  #tm{
+    position: relative;
+    top: 20px;
+  }
+  
+  #img{
+    border-radius: 40px;
+    position: absolute;
+    left: 1140px;
+    top: 26px;
+  }
+  
+  #cont1{
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fff;
+    height: 40px;
+    width: 500px;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+  }
+  
+  #searching{
+    position: relative;
+    top: 7px;
+    left: 5px;
+    border-radius: 30px;
+    border: #fff;
+    width: 70px;
+    height: 25px;
+  }
+  
+  
+  #cont2{
+    position:absolute;
+    display: inline-block;
+    height: 80vh;
+    width: 900px;
+    background-color: #fff;
+    border-radius: 30px;
+    left: 350px;
+    top: 100px;
+  }
+
+  .navbar,.navbar-expand-lg{
+
+    background-color: black;
+  }

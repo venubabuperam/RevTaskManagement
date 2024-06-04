@@ -1,0 +1,101 @@
+<div id="head">
+    <span id="logo">
+        <img src="https://i.pinimg.com/736x/f8/98/bf/f898bfb34a80f0784e1417c86a096e13.jpg" alt="logo" height="90px" width="110px">
+    </span>
+    <span id="navigation">
+        <span id="navi1"><a href="#">Service</a></span>
+        <span id="navi2"><a href="#">About</a></span>
+        <span id="navi3"><a href="#">Resources</a></span>
+        <span id="navi4"><a href="#">ContactUs</a></span>
+
+
+    </span>
+</div>
+<section>
+    <div id="body">
+        <span id="part1">
+            <section>
+                <div class="image-container">
+                    <img src="https://notime.io/img/ogimage.png" alt="Image">
+                </div>
+            </section>
+        </span>
+        <span id="part2">
+            <div class="login-box">
+                <h2>Login</h2>
+                <form (ngSubmit)="login()">
+                    <div class="user-box">
+                        <input type="text" name="email" [(ngModel)]="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="password" name="password" [(ngModel)]="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div>
+                        <input type="submit" value="Login">
+                    </div>
+                   
+                    <br>
+                </form>
+            </div>
+        </span>
+    </div>
+</section>
+<div id="footer">
+    <section class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+              <h4>Info</h4>
+              <ul class="links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Compressions</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Collection</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-col">
+              <h4>Explore</h4>
+              <ul class="links">
+                <li><a href="#">Free Designs</a></li>
+                <li><a href="#">Latest Designs</a></li>
+                <li><a href="#">Themes</a></li>
+                <li><a href="#">Popular Designs</a></li>
+                <li><a href="#">Art Skills</a></li>
+                <li><a href="#">New Uploads</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-col">
+              <h4>Legal</h4>
+              <ul class="links">
+                <li><a href="#">Customer Agreement</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">GDPR</a></li>
+                <li><a href="#">Security</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Media Kit</a></li>
+              </ul>
+            </div>
+    
+            <div class="footer-col">
+              <h4>Contact Us</h4>
+              <p>
+                Any Queries ? Don't Hesitate To Contact Us
+              </p>
+              <form action="#">
+                <input type="text" placeholder="Your email" required>
+                <button type="submit">SUBSCRIBE</button>
+              </form>
+              <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+            </div>
+          </div>
+    </section>
+</div>
